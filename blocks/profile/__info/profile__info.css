@@ -1,0 +1,21 @@
+.profile__info {
+  margin-top: 18px;
+  margin-left: 30px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: minmax(201px, max-content) minmax(24px, 1fr);
+  grid-template-rows: minmax(38px, max-content) 1fr;
+  grid-row-gap: 4px;
+  grid-column-gap: 19px;
+  grid-template-areas:
+    "profile__name edit"
+    "job job";
+}
+
+@media (max-width: 620px) {
+  .profile__info {
+    margin: auto;
+    margin-top: 10.25px;
+    grid-column-gap: 4px;
+  }
+}

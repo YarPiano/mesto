@@ -1,0 +1,10 @@
+/* * {
+  outline: 1px solid yellow;
+} */
+
+.root {
+  background-color: black;
+  font-family: "Inter", Arial, sans-serif;
+  color: white;
+  min-height: 100vh;
+}

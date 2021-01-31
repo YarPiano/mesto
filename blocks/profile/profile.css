@@ -1,0 +1,14 @@
+.profile {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+@media (max-width: 620px) {
+  .profile {
+    flex-direction: column;
+    align-content: center;
+  }
+}

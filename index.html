@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Проект MESTO</title>
+  </head>
+
+  <body class="root">
+    <header class="header">
+      <div class="header__logo"></div>
+    </header>
+
+    <main class="content">
+      <section class="profile">
+        <!-- <img src="./images/image.png" class="profile__avatar" alt="Аватар" /> -->
+        <div class="profile__avatar"></div>
+        <div class="profile__info">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <button class="profile__button-edit button"></button>
+          <p class="profile__job">Исследователь океана</p>
+        </div>
+        <button class="profile__button-add button"></button>
+      </section>
+
+      <section class="elements">
+        <ul class="elements__list">
+          <li class="element">
+            <img
+              src="./images/City/Chike-Taman.JPG"
+              class="element__image"
+              alt="Чике-Таман"
+            />
+            <h2 class="element__place">Чике-Таман, горный Алтай</h2>
+            <button class="element__like button"></button>
+          </li>
+
+          <li class="element">
+            <img
+              src="./images/City/Gornyi Altay.jpg"
+              class="element__image"
+              alt="Усть-Муны"
+            />
+            <h2 class="element__place">Усть-Муны, горный Алтай</h2>
+            <button class="element__like button"></button>
+          </li>
+
+          <li class="element">
+            <img
+              src="./images/City/Krasnoyarsk.jpg"
+              class="element__image"
+              alt="Красноярск"
+            />
+            <h2 class="element__place">Красноярск</h2>
+            <button class="element__like button"></button>
+          </li>
+
+          <li class="element">
+            <img
+              src="./images/City/Novosibirsk.JPG"
+              class="element__image"
+              alt="Новосибирск"
+            />
+            <h2 class="element__place">Новосибирск</h2>
+            <button class="element__like button"></button>
+          </li>
+
+          <li class="element">
+            <img
+              src="./images/City/Savushky.jpg"
+              class="element__image"
+              alt="Савушки республика Алтай"
+            />
+            <h2 class="element__place">Савушки, республика Алтай</h2>
+            <button class="element__like button"></button>
+          </li>
+
+          <li class="element">
+            <img
+              src="./images/City/Tomsk.jpg"
+              class="element__image"
+              alt="Томск"
+            />
+            <h2 class="element__place">Томск</h2>
+            <button class="element__like button"></button>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
+    </footer>
+
+    <div class="popup">
+      <div class="popup__container">
+        <button type="button" class="popup__close button"></button>
+        <h3 class="popup__title">Редактировать профиль</h3>
+        <form class="popup__form">
+          <input type="text" placeholder="Имя" class="popup__input-name" />
+          <input
+            type="text"
+            placeholder="Род занятий"
+            class="popup__input-job"
+          />
+          <button type="submit" class="popup__button-save button">
+            Сохранить
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
