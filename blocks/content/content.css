@@ -1,0 +1,14 @@
+.content {
+    margin: auto;
+    margin-top: 40px;
+    max-width: 882px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+@media (max-width : 640px) {
+    .content {
+        margin-top: 42px;
+    }
+
+}
