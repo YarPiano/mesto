@@ -6,7 +6,7 @@
     padding-right: 19px;
 }
 
-@media (max-width : 640px) {
+@media (max-width: 640px) {
     .content {
         margin-top: 42px;
     }
